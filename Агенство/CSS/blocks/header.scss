@@ -1,0 +1,124 @@
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+.logo{
+  font-family: 'Raleway', sans-serif;
+  color: #4D5AE5;
+  font-size: 18px;
+  font-weight: 800;
+}
+.logo2{
+  font-family: 'Raleway', sans-serif;
+  color: #2E2F42;
+  font-size: 18px;
+  font-weight: 800;
+}
+.nav_list{
+  font-family: Roboto, sans-serif;
+  display: flex;
+  gap: 40px;
+}
+.nav_list a{
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.nav_list a:hover{
+  color: #4D5AE5;
+}
+.contacts_list{
+  font-family: Roboto, sans-serif;
+  display: flex;
+  gap: 40px;
+}
+.contacts_list a{
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  transition: color 0.2s ease;
+}
+.contacts_list a:hover{
+  color: #4D5AE5;
+}
+
+.hero_title{
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 56px;
+  color: #fff;
+  line-height: 60px;
+  letter-spacing: 2%;
+  max-width: 496px;
+  margin: 0 auto;
+  padding-top: 188px;
+}
+.hero_button{
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4D5AE5;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  margin-top: 48px;
+  height: 56px;
+  width: 169px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.hero_button:hover{
+  background-color: #414cc1;
+}
+.hero_button:active{
+  background-color: #4e59f3;
+}
+
+.features-item{
+  width: calc((100% - 72px) / 4);
+}
+.features-title{
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #362E42;
+}
+.features-text{
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-title{
+  font-family: Roboto, sans-serif;
+  margin-top: 0;
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+.work-img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.team-img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
